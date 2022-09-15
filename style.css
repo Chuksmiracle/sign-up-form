@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+display: flex;
+
+}
+
+.imgsection{
+    width: 40%;
+    min-height: 100vh;
+    background: url(/img/yusuf-shamsudeen-C2bQJhhOPAQ-unsplash.jpg);
+    background-size: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.imgsection h1{
+color: white;
+text-align: center;
+margin: 0px 100px;
+font-size: xx-large;
+margin-top: 250px;
+
+}
+.imgsection p{
+    color: white;
+    text-align: center;
+    margin: 30px 100px;
+    padding-left: 10px;
+    
+    }
+
+.body{
+    width: 60%;
+    height: 100vh;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo img{
+    width: 70px;
+    margin: 10px;
+}
+
+
+.title{
+    text-align: center;
+}
+
+
+.content{
+margin: 20px;
+padding: 40px;
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+  .form-row input[type="text"],input[type="email"],input[type="number"], [type="date"],[type="password"], select{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      font-size: 18px;
+      border-radius: 5px;
+      outline: none;
+  }  
+
+
+  .form-row .input-box {
+    width: 48%;
+}  
+
+
+.submit [type="submit"]{
+    padding: 10px;
+    background-color: rgb(0, 59, 252);
+    border: 1px solid blue;
+    color: white;
+    border-radius: 7px  0 7px;
+}
+
